@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import BubblePage from './components/BubblePage';
 import Login from "./components/Login";
@@ -14,7 +14,7 @@ function App() {
             <Link to="/">Login</Link>
           </li>
           <li>
-            <Link to="/protected">Protected Page</Link>
+            <Link to="/protected">Protected</Link>
           </li>
         </ul>
       <Switch>
